@@ -1,0 +1,1058 @@
+2021-10-09 00:42:08.245  WARN 19240 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h30s413ms198µs100ns).
+2021-10-09 09:06:07.979  WARN 19240 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h24m19s171ms699µs).
+2021-10-09 09:16:23.197  INFO 17076 --- [main] tn.esprit.spring.MissionTest             : Starting MissionTest on DESKTOP-CNJ85KK with PID 17076 (started by Admin in C:\Users\Admin\Desktop\TimesheetProject)
+2021-10-09 09:16:23.217  INFO 17076 --- [main] tn.esprit.spring.MissionTest             : No active profile set, falling back to default profiles: default
+2021-10-09 09:16:24.637  INFO 17076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-09 09:16:24.768  INFO 17076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 120ms. Found 6 repository interfaces.
+2021-10-09 09:16:25.410  INFO 17076 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b2e1bffe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 09:16:25.761  INFO 17076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-09 09:16:26.056  INFO 17076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-09 09:16:26.149  INFO 17076 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-09 09:16:26.266  INFO 17076 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-10-09 09:16:26.268  INFO 17076 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-10-09 09:16:26.520  INFO 17076 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-09 09:16:26.960  INFO 17076 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-10-09 09:16:28.476  INFO 17076 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 09:16:29.004  INFO 17076 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-10-09 09:16:30.920  INFO 17076 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-09 09:16:31.047  WARN 17076 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-09 09:16:31.803  INFO 17076 --- [main] tn.esprit.spring.MissionTest             : Started MissionTest in 9.128 seconds (JVM running for 10.649)
+2021-10-09 09:16:32.364  INFO 17076 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4e85dcb2
+2021-10-09 09:16:32.366  INFO 17076 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@bfd97fb
+2021-10-09 09:16:32.367  INFO 17076 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6bfdaa7a
+2021-10-09 09:16:32.367  INFO 17076 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@7e3d168e
+2021-10-09 09:16:32.367  INFO 17076 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@149b53fa
+2021-10-09 09:16:32.367  INFO 17076 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@73be4cdd
+2021-10-09 09:16:32.367  INFO 17076 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@751686aa
+2021-10-09 09:16:32.368  INFO 17076 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@638977e0
+2021-10-09 09:16:32.368  INFO 17076 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2dc3ece8
+2021-10-09 09:16:32.368  INFO 17076 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2c1a8529
+2021-10-09 09:16:32.368  INFO 17076 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6d7865d6
+2021-10-09 09:16:32.368  INFO 17076 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@45e639ee
+2021-10-09 09:16:32.368  INFO 17076 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@77f03916
+2021-10-09 09:16:32.368  INFO 17076 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@fbbd90c
+2021-10-09 09:16:32.368  INFO 17076 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@559e3f67
+2021-10-09 09:16:32.368  INFO 17076 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@23d0944b
+2021-10-09 09:16:32.368  INFO 17076 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@72f24a84
+2021-10-09 09:16:32.643  INFO 17076 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-09 09:16:32.646  INFO 17076 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 09:16:32.651  INFO 17076 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-09 09:16:32.666  INFO 17076 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-09 09:42:31.983  INFO 16724 --- [main] tn.esprit.spring.MissionTest             : Starting MissionTest on DESKTOP-CNJ85KK with PID 16724 (started by Admin in C:\Users\Admin\Desktop\TimesheetProject)
+2021-10-09 09:42:31.986  INFO 16724 --- [main] tn.esprit.spring.MissionTest             : No active profile set, falling back to default profiles: default
+2021-10-09 09:42:33.184  INFO 16724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-09 09:42:33.339  INFO 16724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 138ms. Found 6 repository interfaces.
+2021-10-09 09:42:33.924  INFO 16724 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ef0f9cfc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 09:42:34.342  INFO 16724 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-09 09:42:34.516  INFO 16724 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-09 09:42:34.598  INFO 16724 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-09 09:42:34.705  INFO 16724 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-10-09 09:42:34.708  INFO 16724 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-10-09 09:42:34.930  INFO 16724 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-09 09:42:35.328  INFO 16724 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-10-09 09:42:37.041  INFO 16724 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 09:42:37.518  INFO 16724 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-10-09 09:42:39.148  INFO 16724 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-09 09:42:39.262  WARN 16724 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-09 09:42:39.893  INFO 16724 --- [main] tn.esprit.spring.MissionTest             : Started MissionTest in 8.367 seconds (JVM running for 9.872)
+2021-10-09 09:42:40.356  INFO 16724 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1c3d9e28
+2021-10-09 09:42:40.357  INFO 16724 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@37f41a81
+2021-10-09 09:42:40.358  INFO 16724 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@47c81e89
+2021-10-09 09:42:40.358  INFO 16724 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@49bb808f
+2021-10-09 09:42:40.358  INFO 16724 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@563ada5
+2021-10-09 09:42:40.358  INFO 16724 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@12548f9a
+2021-10-09 09:42:40.358  INFO 16724 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@156ff70f
+2021-10-09 09:42:40.358  INFO 16724 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@c5a2d5
+2021-10-09 09:42:40.358  INFO 16724 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@185339ed
+2021-10-09 09:42:40.358  INFO 16724 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2e4d4d22
+2021-10-09 09:42:40.359  INFO 16724 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4470106b
+2021-10-09 09:42:40.359  INFO 16724 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@690ed13a
+2021-10-09 09:42:40.359  INFO 16724 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@681311a7
+2021-10-09 09:42:40.359  INFO 16724 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2c7375da
+2021-10-09 09:42:40.359  INFO 16724 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@775c4054
+2021-10-09 09:42:40.359  INFO 16724 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@7b2e931
+2021-10-09 09:42:40.359  INFO 16724 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@305881b8
+2021-10-09 09:42:40.359  INFO 16724 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@7e89eba7
+2021-10-09 09:42:40.359  INFO 16724 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6bc25ac2
+2021-10-09 09:42:40.435  INFO 16724 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-09 09:42:40.444  INFO 16724 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 09:42:40.450  INFO 16724 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-09 09:42:40.465  INFO 16724 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-09 09:51:06.756  INFO 20096 --- [main] tn.esprit.spring.MissionTest             : Starting MissionTest on DESKTOP-CNJ85KK with PID 20096 (started by Admin in C:\Users\Admin\Desktop\TimesheetProject)
+2021-10-09 09:51:06.759  INFO 20096 --- [main] tn.esprit.spring.MissionTest             : No active profile set, falling back to default profiles: default
+2021-10-09 09:51:07.920  INFO 20096 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-09 09:51:08.057  INFO 20096 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 125ms. Found 6 repository interfaces.
+2021-10-09 09:51:08.745  INFO 20096 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6dde568e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 09:51:09.186  INFO 20096 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-09 09:51:09.374  INFO 20096 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-09 09:51:09.458  INFO 20096 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-09 09:51:09.568  INFO 20096 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-10-09 09:51:09.570  INFO 20096 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-10-09 09:51:09.795  INFO 20096 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-09 09:51:10.216  INFO 20096 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-10-09 09:51:11.739  INFO 20096 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 09:51:12.305  INFO 20096 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-10-09 09:51:14.144  INFO 20096 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-09 09:51:14.221  WARN 20096 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-09 09:51:14.873  INFO 20096 --- [main] tn.esprit.spring.MissionTest             : Started MissionTest in 8.574 seconds (JVM running for 9.921)
+2021-10-09 09:51:15.333  INFO 20096 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5c79c5ec
+2021-10-09 09:51:15.335  INFO 20096 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@55881f40
+2021-10-09 09:51:15.335  INFO 20096 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@474ce6b8
+2021-10-09 09:51:15.337  INFO 20096 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@248b2b61
+2021-10-09 09:51:15.338  INFO 20096 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4b61e97
+2021-10-09 09:51:15.338  INFO 20096 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@11d1735e
+2021-10-09 09:51:15.338  INFO 20096 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@31082efa
+2021-10-09 09:51:15.339  INFO 20096 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4ca5cb99
+2021-10-09 09:51:15.339  INFO 20096 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@7853363c
+2021-10-09 09:51:15.339  INFO 20096 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6282f1eb
+2021-10-09 09:51:15.340  INFO 20096 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@120d6cbf
+2021-10-09 09:51:15.340  INFO 20096 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@70169464
+2021-10-09 09:51:15.340  INFO 20096 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1115be8c
+2021-10-09 09:51:15.340  INFO 20096 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@64ed18ec
+2021-10-09 09:51:15.340  INFO 20096 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@590dea35
+2021-10-09 09:51:15.340  INFO 20096 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6550ce46
+2021-10-09 09:51:15.341  INFO 20096 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@69f69078
+2021-10-09 09:51:15.341  INFO 20096 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@13b29b34
+2021-10-09 09:51:15.341  INFO 20096 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@25589735
+2021-10-09 09:51:15.341  INFO 20096 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@46994f26
+2021-10-09 09:51:15.341  INFO 20096 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1bb172dd
+2021-10-09 09:51:15.435  INFO 20096 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-09 09:51:15.441  INFO 20096 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 09:51:15.446  INFO 20096 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-09 09:51:15.478  INFO 20096 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-09 10:21:28.864  INFO 1444 --- [main] tn.esprit.spring.MissionTest             : Starting MissionTest on DESKTOP-CNJ85KK with PID 1444 (started by Admin in C:\Users\Admin\Desktop\TimesheetProject)
+2021-10-09 10:21:28.868  INFO 1444 --- [main] tn.esprit.spring.MissionTest             : No active profile set, falling back to default profiles: default
+2021-10-09 10:21:30.171  INFO 1444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-09 10:21:30.316  INFO 1444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 132ms. Found 6 repository interfaces.
+2021-10-09 10:21:31.176  INFO 1444 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$da252e8e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 10:21:31.634  INFO 1444 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-09 10:21:31.891  INFO 1444 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-09 10:21:31.982  INFO 1444 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-09 10:21:32.097  INFO 1444 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-10-09 10:21:32.099  INFO 1444 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-10-09 10:21:32.316  INFO 1444 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-09 10:21:32.734  INFO 1444 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-10-09 10:21:34.172  INFO 1444 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 10:21:34.659  INFO 1444 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-10-09 10:21:36.308  INFO 1444 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-09 10:21:36.387  WARN 1444 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-09 10:21:37.004  INFO 1444 --- [main] tn.esprit.spring.MissionTest             : Started MissionTest in 8.649 seconds (JVM running for 10.212)
+2021-10-09 10:21:37.394  INFO 1444 --- [main] t.esprit.spring.services.MissionService  : Service: Fetching mission with id
+2021-10-09 10:21:37.479  INFO 1444 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-09 10:21:37.486  INFO 1444 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 10:21:37.492  INFO 1444 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-09 10:21:37.517  INFO 1444 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-09 10:40:30.694  INFO 16484 --- [main] tn.esprit.spring.MissionTest             : Starting MissionTest on DESKTOP-CNJ85KK with PID 16484 (started by Admin in C:\Users\Admin\Desktop\TimesheetProject)
+2021-10-09 10:40:30.697  INFO 16484 --- [main] tn.esprit.spring.MissionTest             : No active profile set, falling back to default profiles: default
+2021-10-09 10:40:32.918  INFO 16484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-09 10:40:33.082  INFO 16484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 150ms. Found 6 repository interfaces.
+2021-10-09 10:40:34.030  INFO 16484 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b2e1bffe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 10:40:34.581  INFO 16484 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-09 10:40:35.065  INFO 16484 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-09 10:40:35.195  INFO 16484 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-09 10:40:35.340  INFO 16484 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-10-09 10:40:35.343  INFO 16484 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-10-09 10:40:35.710  INFO 16484 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-09 10:40:36.310  INFO 16484 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-10-09 10:40:39.315  INFO 16484 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 10:40:40.141  INFO 16484 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-10-09 10:40:44.183  INFO 16484 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-09 10:40:44.535  WARN 16484 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-09 10:40:45.866  INFO 16484 --- [main] tn.esprit.spring.MissionTest             : Started MissionTest in 15.979 seconds (JVM running for 18.029)
+2021-10-09 10:40:46.526  INFO 16484 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6b3b2c34
+2021-10-09 10:40:46.528  INFO 16484 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@77020328
+2021-10-09 10:40:46.529  INFO 16484 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@45eacb70
+2021-10-09 10:40:46.530  INFO 16484 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4377ed24
+2021-10-09 10:40:46.530  INFO 16484 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@7a30e30b
+2021-10-09 10:40:46.530  INFO 16484 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1dcca426
+2021-10-09 10:40:46.530  INFO 16484 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@e6e5da4
+2021-10-09 10:40:46.531  INFO 16484 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@720c8f80
+2021-10-09 10:40:46.531  INFO 16484 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@f591271
+2021-10-09 10:40:46.531  INFO 16484 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@77cc6a28
+2021-10-09 10:40:46.531  INFO 16484 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@b339a08
+2021-10-09 10:40:46.531  INFO 16484 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1d556461
+2021-10-09 10:40:46.532  INFO 16484 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5a583720
+2021-10-09 10:40:46.532  INFO 16484 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4ed19b69
+2021-10-09 10:40:46.533  INFO 16484 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6f65aa58
+2021-10-09 10:40:46.533  INFO 16484 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@749f61a3
+2021-10-09 10:40:46.533  INFO 16484 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@36d7a68a
+2021-10-09 10:40:46.533  INFO 16484 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@42dd7d82
+2021-10-09 10:40:46.533  INFO 16484 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2838eb
+2021-10-09 10:40:46.533  INFO 16484 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@fb5d334
+2021-10-09 10:40:46.533  INFO 16484 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@45dc7be
+2021-10-09 10:40:46.533  INFO 16484 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2d459bda
+2021-10-09 10:40:46.721  INFO 16484 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-09 10:40:46.723  INFO 16484 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 10:40:46.730  INFO 16484 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-09 10:40:46.754  INFO 16484 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-09 10:45:01.572  INFO 11492 --- [main] tn.esprit.spring.MissionTest             : Starting MissionTest on DESKTOP-CNJ85KK with PID 11492 (started by Admin in C:\Users\Admin\Desktop\TimesheetProject)
+2021-10-09 10:45:01.574  INFO 11492 --- [main] tn.esprit.spring.MissionTest             : No active profile set, falling back to default profiles: default
+2021-10-09 10:45:02.927  INFO 11492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-09 10:45:03.081  INFO 11492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 141ms. Found 6 repository interfaces.
+2021-10-09 10:45:03.742  INFO 11492 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$80e48015] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 10:45:04.190  INFO 11492 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-09 10:45:04.459  INFO 11492 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-09 10:45:04.566  INFO 11492 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-09 10:45:04.670  INFO 11492 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-10-09 10:45:04.675  INFO 11492 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-10-09 10:45:04.886  INFO 11492 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-09 10:45:05.300  INFO 11492 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-10-09 10:45:06.732  INFO 11492 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 10:45:07.325  INFO 11492 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-10-09 10:45:09.139  INFO 11492 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-09 10:45:09.258  WARN 11492 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-09 10:45:10.024  INFO 11492 --- [main] tn.esprit.spring.MissionTest             : Started MissionTest in 8.941 seconds (JVM running for 10.228)
+2021-10-09 10:45:10.535  INFO 11492 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@f591271
+2021-10-09 10:45:10.537  INFO 11492 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1d556461
+2021-10-09 10:45:10.537  INFO 11492 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5a583720
+2021-10-09 10:45:10.537  INFO 11492 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4ed19b69
+2021-10-09 10:45:10.537  INFO 11492 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@59a5bb61
+2021-10-09 10:45:10.537  INFO 11492 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6f65aa58
+2021-10-09 10:45:10.537  INFO 11492 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@749f61a3
+2021-10-09 10:45:10.538  INFO 11492 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@36d7a68a
+2021-10-09 10:45:10.538  INFO 11492 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@42dd7d82
+2021-10-09 10:45:10.538  INFO 11492 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2838eb
+2021-10-09 10:45:10.538  INFO 11492 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@fb5d334
+2021-10-09 10:45:10.538  INFO 11492 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@45dc7be
+2021-10-09 10:45:10.538  INFO 11492 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2d459bda
+2021-10-09 10:45:10.538  INFO 11492 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6ceb11f9
+2021-10-09 10:45:10.538  INFO 11492 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@27ec0d06
+2021-10-09 10:45:10.538  INFO 11492 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2676d96a
+2021-10-09 10:45:10.538  INFO 11492 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@12266084
+2021-10-09 10:45:10.538  INFO 11492 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6da646b8
+2021-10-09 10:45:10.539  INFO 11492 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2a65e237
+2021-10-09 10:45:10.539  INFO 11492 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@3a48c398
+2021-10-09 10:45:10.539  INFO 11492 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1b4ba615
+2021-10-09 10:45:10.539  INFO 11492 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4407b042
+2021-10-09 10:45:10.539  INFO 11492 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@41f686af
+2021-10-09 10:45:10.621  INFO 11492 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-09 10:45:10.625  INFO 11492 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 10:45:10.628  INFO 11492 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-09 10:45:10.648  INFO 11492 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-09 10:48:06.007  INFO 4288 --- [main] tn.esprit.spring.MissionTest             : Starting MissionTest on DESKTOP-CNJ85KK with PID 4288 (started by Admin in C:\Users\Admin\Desktop\TimesheetProject)
+2021-10-09 10:48:06.009  INFO 4288 --- [main] tn.esprit.spring.MissionTest             : No active profile set, falling back to default profiles: default
+2021-10-09 10:48:07.309  INFO 4288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-09 10:48:07.456  INFO 4288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 132ms. Found 6 repository interfaces.
+2021-10-09 10:48:08.128  INFO 4288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b2e1bffe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 10:48:08.544  INFO 4288 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-09 10:48:08.880  INFO 4288 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-09 10:48:08.978  INFO 4288 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-09 10:48:09.072  INFO 4288 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-10-09 10:48:09.075  INFO 4288 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-10-09 10:48:09.291  INFO 4288 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-09 10:48:09.702  INFO 4288 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-10-09 10:48:11.185  INFO 4288 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 10:48:11.637  INFO 4288 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-10-09 10:48:13.331  INFO 4288 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-09 10:48:13.421  WARN 4288 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-09 10:48:13.999  INFO 4288 --- [main] tn.esprit.spring.MissionTest             : Started MissionTest in 8.508 seconds (JVM running for 9.845)
+2021-10-09 10:48:14.374  INFO 4288 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6b3b2c34
+2021-10-09 10:48:14.375  INFO 4288 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@77020328
+2021-10-09 10:48:14.375  INFO 4288 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@45eacb70
+2021-10-09 10:48:14.376  INFO 4288 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4377ed24
+2021-10-09 10:48:14.376  INFO 4288 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@7a30e30b
+2021-10-09 10:48:14.376  INFO 4288 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1dcca426
+2021-10-09 10:48:14.376  INFO 4288 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@e6e5da4
+2021-10-09 10:48:14.376  INFO 4288 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@720c8f80
+2021-10-09 10:48:14.376  INFO 4288 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@f591271
+2021-10-09 10:48:14.376  INFO 4288 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@77cc6a28
+2021-10-09 10:48:14.376  INFO 4288 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@b339a08
+2021-10-09 10:48:14.376  INFO 4288 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1d556461
+2021-10-09 10:48:14.376  INFO 4288 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5a583720
+2021-10-09 10:48:14.376  INFO 4288 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4ed19b69
+2021-10-09 10:48:14.376  INFO 4288 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6f65aa58
+2021-10-09 10:48:14.377  INFO 4288 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@749f61a3
+2021-10-09 10:48:14.377  INFO 4288 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@36d7a68a
+2021-10-09 10:48:14.377  INFO 4288 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@42dd7d82
+2021-10-09 10:48:14.377  INFO 4288 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2838eb
+2021-10-09 10:48:14.377  INFO 4288 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@fb5d334
+2021-10-09 10:48:14.377  INFO 4288 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@45dc7be
+2021-10-09 10:48:14.377  INFO 4288 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2d459bda
+2021-10-09 10:48:14.377  INFO 4288 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6ceb11f9
+2021-10-09 10:48:14.377  INFO 4288 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4d664323
+2021-10-09 10:48:14.485  INFO 4288 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-09 10:48:14.491  INFO 4288 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 10:48:14.495  INFO 4288 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-09 10:48:14.512  INFO 4288 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-09 11:12:42.248  INFO 11936 --- [main] tn.esprit.spring.MissionTest             : Starting MissionTest on DESKTOP-CNJ85KK with PID 11936 (started by Admin in C:\Users\Admin\Desktop\TimesheetProject)
+2021-10-09 11:12:42.251  INFO 11936 --- [main] tn.esprit.spring.MissionTest             : No active profile set, falling back to default profiles: default
+2021-10-09 11:12:43.613  INFO 11936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-09 11:12:43.737  INFO 11936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114ms. Found 6 repository interfaces.
+2021-10-09 11:12:44.438  INFO 11936 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f855ecfd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 11:12:44.803  INFO 11936 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-09 11:12:45.128  INFO 11936 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-09 11:12:45.227  INFO 11936 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-09 11:12:45.358  INFO 11936 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-10-09 11:12:45.360  INFO 11936 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-10-09 11:12:45.600  INFO 11936 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-09 11:12:46.049  INFO 11936 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-10-09 11:12:47.765  INFO 11936 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:12:48.297  INFO 11936 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-10-09 11:12:50.068  INFO 11936 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:12:50.170  WARN 11936 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-09 11:12:50.854  INFO 11936 --- [main] tn.esprit.spring.MissionTest             : Started MissionTest in 9.139 seconds (JVM running for 10.867)
+2021-10-09 11:12:51.308  INFO 11936 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@97beeaf
+2021-10-09 11:12:51.308  INFO 11936 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@3ec7eb5
+2021-10-09 11:12:51.309  INFO 11936 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5534e6f1
+2021-10-09 11:12:51.309  INFO 11936 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4c6fc3e7
+2021-10-09 11:12:51.309  INFO 11936 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@aa8dce8
+2021-10-09 11:12:51.309  INFO 11936 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6ad112de
+2021-10-09 11:12:51.309  INFO 11936 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@18a0721b
+2021-10-09 11:12:51.310  INFO 11936 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2ae2fa13
+2021-10-09 11:12:51.310  INFO 11936 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@66e12c3b
+2021-10-09 11:12:51.310  INFO 11936 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@44485db
+2021-10-09 11:12:51.310  INFO 11936 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1f6f0fe2
+2021-10-09 11:12:51.310  INFO 11936 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@22604c7e
+2021-10-09 11:12:51.310  INFO 11936 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4d8f2cfd
+2021-10-09 11:12:51.310  INFO 11936 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6d4502ca
+2021-10-09 11:12:51.310  INFO 11936 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2a11ae0b
+2021-10-09 11:12:51.310  INFO 11936 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1e4d8770
+2021-10-09 11:12:51.311  INFO 11936 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5b5b9521
+2021-10-09 11:12:51.311  INFO 11936 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@41f7c02d
+2021-10-09 11:12:51.311  INFO 11936 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@66314fee
+2021-10-09 11:12:51.311  INFO 11936 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@14b5325f
+2021-10-09 11:12:51.311  INFO 11936 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@13404f75
+2021-10-09 11:12:51.311  INFO 11936 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6cc90398
+2021-10-09 11:12:51.312  INFO 11936 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6b6fd0
+2021-10-09 11:12:51.312  INFO 11936 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@3d718248
+2021-10-09 11:12:51.312  INFO 11936 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2cdb5974
+2021-10-09 11:12:51.405  INFO 11936 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:12:51.408  INFO 11936 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:12:51.412  INFO 11936 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-09 11:12:51.466  INFO 11936 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-09 11:15:36.181  INFO 16780 --- [main] tn.esprit.spring.MissionTest             : Starting MissionTest on DESKTOP-CNJ85KK with PID 16780 (started by Admin in C:\Users\Admin\Desktop\TimesheetProject)
+2021-10-09 11:15:36.187  INFO 16780 --- [main] tn.esprit.spring.MissionTest             : No active profile set, falling back to default profiles: default
+2021-10-09 11:15:37.388  INFO 16780 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-09 11:15:37.527  INFO 16780 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 125ms. Found 6 repository interfaces.
+2021-10-09 11:15:38.210  INFO 16780 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fc907670] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 11:15:38.548  INFO 16780 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-09 11:15:38.843  INFO 16780 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-09 11:15:38.932  INFO 16780 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-09 11:15:39.041  INFO 16780 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-10-09 11:15:39.043  INFO 16780 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-10-09 11:15:39.268  INFO 16780 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-09 11:15:39.667  INFO 16780 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-10-09 11:15:41.439  INFO 16780 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:15:41.908  INFO 16780 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-10-09 11:15:43.503  INFO 16780 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:15:43.598  WARN 16780 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-09 11:15:44.207  INFO 16780 --- [main] tn.esprit.spring.MissionTest             : Started MissionTest in 8.461 seconds (JVM running for 9.741)
+2021-10-09 11:15:44.509  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : Service: Fetching mission with id
+2021-10-09 11:15:44.677  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@48692405
+2021-10-09 11:15:44.677  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@151659dd
+2021-10-09 11:15:44.678  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4a58e0e9
+2021-10-09 11:15:44.678  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@e8c84eb
+2021-10-09 11:15:44.678  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@f44d033
+2021-10-09 11:15:44.678  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@283bb8b7
+2021-10-09 11:15:44.678  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@25e95af1
+2021-10-09 11:15:44.678  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4fa8297b
+2021-10-09 11:15:44.679  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6644bdf5
+2021-10-09 11:15:44.679  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@13cf5f8a
+2021-10-09 11:15:44.679  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@7c9ea1d0
+2021-10-09 11:15:44.679  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@72f3acc9
+2021-10-09 11:15:44.679  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@584136c1
+2021-10-09 11:15:44.679  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@51d88c38
+2021-10-09 11:15:44.679  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@3ea2f72e
+2021-10-09 11:15:44.679  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@57b33c29
+2021-10-09 11:15:44.679  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@615ef20
+2021-10-09 11:15:44.679  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@13390a96
+2021-10-09 11:15:44.680  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@3a8b9458
+2021-10-09 11:15:44.680  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@7497a554
+2021-10-09 11:15:44.680  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5dd23809
+2021-10-09 11:15:44.680  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@664f49f
+2021-10-09 11:15:44.680  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@60ab895f
+2021-10-09 11:15:44.680  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@295f2d1b
+2021-10-09 11:15:44.680  INFO 16780 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@65015a49
+2021-10-09 11:15:44.750  INFO 16780 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:15:44.755  INFO 16780 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:15:44.760  INFO 16780 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-09 11:15:44.777  INFO 16780 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-09 11:16:07.604  INFO 8996 --- [main] tn.esprit.spring.MissionTest             : Starting MissionTest on DESKTOP-CNJ85KK with PID 8996 (started by Admin in C:\Users\Admin\Desktop\TimesheetProject)
+2021-10-09 11:16:07.613  INFO 8996 --- [main] tn.esprit.spring.MissionTest             : No active profile set, falling back to default profiles: default
+2021-10-09 11:16:08.915  INFO 8996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-09 11:16:09.067  INFO 8996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 140ms. Found 6 repository interfaces.
+2021-10-09 11:16:09.853  INFO 8996 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f855ecfd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 11:16:10.249  INFO 8996 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-09 11:16:10.564  INFO 8996 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-09 11:16:10.674  INFO 8996 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-09 11:16:10.832  INFO 8996 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-10-09 11:16:10.837  INFO 8996 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-10-09 11:16:11.084  INFO 8996 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-09 11:16:11.521  INFO 8996 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-10-09 11:16:13.166  INFO 8996 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:16:13.629  INFO 8996 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-10-09 11:16:15.337  INFO 8996 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:16:15.437  WARN 8996 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-09 11:16:16.126  INFO 8996 --- [main] tn.esprit.spring.MissionTest             : Started MissionTest in 8.98 seconds (JVM running for 10.36)
+2021-10-09 11:16:16.618  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@97beeaf
+2021-10-09 11:16:16.620  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@3ec7eb5
+2021-10-09 11:16:16.620  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5534e6f1
+2021-10-09 11:16:16.621  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4c6fc3e7
+2021-10-09 11:16:16.621  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@aa8dce8
+2021-10-09 11:16:16.621  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6ad112de
+2021-10-09 11:16:16.621  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@18a0721b
+2021-10-09 11:16:16.621  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2ae2fa13
+2021-10-09 11:16:16.621  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@66e12c3b
+2021-10-09 11:16:16.621  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@44485db
+2021-10-09 11:16:16.622  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1f6f0fe2
+2021-10-09 11:16:16.623  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@22604c7e
+2021-10-09 11:16:16.623  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4d8f2cfd
+2021-10-09 11:16:16.623  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6d4502ca
+2021-10-09 11:16:16.623  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2a11ae0b
+2021-10-09 11:16:16.624  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1e4d8770
+2021-10-09 11:16:16.624  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5b5b9521
+2021-10-09 11:16:16.624  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@41f7c02d
+2021-10-09 11:16:16.624  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@66314fee
+2021-10-09 11:16:16.624  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@14b5325f
+2021-10-09 11:16:16.624  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@13404f75
+2021-10-09 11:16:16.625  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6cc90398
+2021-10-09 11:16:16.626  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6b6fd0
+2021-10-09 11:16:16.626  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@3d718248
+2021-10-09 11:16:16.626  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2cdb5974
+2021-10-09 11:16:16.626  INFO 8996 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@8aa5ab4
+2021-10-09 11:16:16.689  INFO 8996 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:16:16.693  INFO 8996 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:16:16.700  INFO 8996 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-09 11:16:16.720  INFO 8996 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-09 11:16:40.009  INFO 20368 --- [main] tn.esprit.spring.MissionTest             : Starting MissionTest on DESKTOP-CNJ85KK with PID 20368 (started by Admin in C:\Users\Admin\Desktop\TimesheetProject)
+2021-10-09 11:16:40.013  INFO 20368 --- [main] tn.esprit.spring.MissionTest             : No active profile set, falling back to default profiles: default
+2021-10-09 11:16:41.237  INFO 20368 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-09 11:16:41.389  INFO 20368 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 137ms. Found 6 repository interfaces.
+2021-10-09 11:16:41.962  INFO 20368 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9aba3785] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 11:16:42.279  INFO 20368 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-09 11:16:42.549  INFO 20368 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-09 11:16:42.636  INFO 20368 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-09 11:16:42.742  INFO 20368 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-10-09 11:16:42.745  INFO 20368 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-10-09 11:16:42.967  INFO 20368 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-09 11:16:43.377  INFO 20368 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-10-09 11:16:45.069  INFO 20368 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:16:45.554  INFO 20368 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-10-09 11:16:47.212  INFO 20368 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:16:47.292  WARN 20368 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-09 11:16:47.946  INFO 20368 --- [main] tn.esprit.spring.MissionTest             : Started MissionTest in 8.384 seconds (JVM running for 9.698)
+2021-10-09 11:16:48.406  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@113d0f75
+2021-10-09 11:16:48.407  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@352c3d70
+2021-10-09 11:16:48.407  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4c13ca07
+2021-10-09 11:16:48.408  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@7d17906
+2021-10-09 11:16:48.408  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@97beeaf
+2021-10-09 11:16:48.408  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5d68954d
+2021-10-09 11:16:48.408  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@f793f15
+2021-10-09 11:16:48.408  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@3ec7eb5
+2021-10-09 11:16:48.408  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5534e6f1
+2021-10-09 11:16:48.408  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4c6fc3e7
+2021-10-09 11:16:48.409  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@aa8dce8
+2021-10-09 11:16:48.409  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6ad112de
+2021-10-09 11:16:48.409  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@18a0721b
+2021-10-09 11:16:48.409  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2ae2fa13
+2021-10-09 11:16:48.409  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@44485db
+2021-10-09 11:16:48.409  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1f6f0fe2
+2021-10-09 11:16:48.409  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@22604c7e
+2021-10-09 11:16:48.409  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4d8f2cfd
+2021-10-09 11:16:48.409  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6d4502ca
+2021-10-09 11:16:48.409  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@ab2009f
+2021-10-09 11:16:48.410  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2a11ae0b
+2021-10-09 11:16:48.410  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1e4d8770
+2021-10-09 11:16:48.410  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5b5b9521
+2021-10-09 11:16:48.410  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@41f7c02d
+2021-10-09 11:16:48.410  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@66314fee
+2021-10-09 11:16:48.410  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@14b5325f
+2021-10-09 11:16:48.410  INFO 20368 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@13404f75
+2021-10-09 11:16:48.477  INFO 20368 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:16:48.480  INFO 20368 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:16:48.485  INFO 20368 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-09 11:16:48.497  INFO 20368 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-09 11:17:17.656  INFO 10960 --- [main] tn.esprit.spring.MissionTest             : Starting MissionTest on DESKTOP-CNJ85KK with PID 10960 (started by Admin in C:\Users\Admin\Desktop\TimesheetProject)
+2021-10-09 11:17:17.659  INFO 10960 --- [main] tn.esprit.spring.MissionTest             : No active profile set, falling back to default profiles: default
+2021-10-09 11:17:18.871  INFO 10960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-09 11:17:19.016  INFO 10960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 131ms. Found 6 repository interfaces.
+2021-10-09 11:17:19.623  INFO 10960 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$20708bcc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 11:17:20.045  INFO 10960 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-09 11:17:20.222  INFO 10960 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-09 11:17:20.310  INFO 10960 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-09 11:17:20.415  INFO 10960 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-10-09 11:17:20.419  INFO 10960 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-10-09 11:17:20.634  INFO 10960 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-09 11:17:21.051  INFO 10960 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-10-09 11:17:22.488  INFO 10960 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:17:22.945  INFO 10960 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-10-09 11:17:24.631  INFO 10960 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:17:24.730  WARN 10960 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-09 11:17:25.331  INFO 10960 --- [main] tn.esprit.spring.MissionTest             : Started MissionTest in 8.143 seconds (JVM running for 9.604)
+2021-10-09 11:17:25.788  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2ac05a33
+2021-10-09 11:17:25.789  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4213bc3e
+2021-10-09 11:17:25.789  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6aaa678d
+2021-10-09 11:17:25.789  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@25dcf1b6
+2021-10-09 11:17:25.789  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@113d0f75
+2021-10-09 11:17:25.789  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4e10a320
+2021-10-09 11:17:25.789  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@773f3360
+2021-10-09 11:17:25.789  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@352c3d70
+2021-10-09 11:17:25.790  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4c13ca07
+2021-10-09 11:17:25.790  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@7d17906
+2021-10-09 11:17:25.790  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@97beeaf
+2021-10-09 11:17:25.790  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5d68954d
+2021-10-09 11:17:25.790  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@f793f15
+2021-10-09 11:17:25.790  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@3ec7eb5
+2021-10-09 11:17:25.790  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4c6fc3e7
+2021-10-09 11:17:25.790  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@aa8dce8
+2021-10-09 11:17:25.790  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6ad112de
+2021-10-09 11:17:25.790  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@18a0721b
+2021-10-09 11:17:25.790  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2ae2fa13
+2021-10-09 11:17:25.791  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@66e12c3b
+2021-10-09 11:17:25.791  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@44485db
+2021-10-09 11:17:25.791  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1f6f0fe2
+2021-10-09 11:17:25.791  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@22604c7e
+2021-10-09 11:17:25.791  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4d8f2cfd
+2021-10-09 11:17:25.791  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6d4502ca
+2021-10-09 11:17:25.791  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@ab2009f
+2021-10-09 11:17:25.791  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2a11ae0b
+2021-10-09 11:17:25.791  INFO 10960 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1e4d8770
+2021-10-09 11:17:25.868  INFO 10960 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:17:25.891  INFO 10960 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:17:25.896  INFO 10960 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-09 11:17:25.918  INFO 10960 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-09 11:17:37.142  INFO 16228 --- [main] tn.esprit.spring.MissionTest             : Starting MissionTest on DESKTOP-CNJ85KK with PID 16228 (started by Admin in C:\Users\Admin\Desktop\TimesheetProject)
+2021-10-09 11:17:37.144  INFO 16228 --- [main] tn.esprit.spring.MissionTest             : No active profile set, falling back to default profiles: default
+2021-10-09 11:17:38.372  INFO 16228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-09 11:17:38.496  INFO 16228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 113ms. Found 6 repository interfaces.
+2021-10-09 11:17:39.088  INFO 16228 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3c6ed1ee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 11:17:39.509  INFO 16228 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-09 11:17:39.686  INFO 16228 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-09 11:17:39.771  INFO 16228 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-09 11:17:39.880  INFO 16228 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-10-09 11:17:39.882  INFO 16228 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-10-09 11:17:40.099  INFO 16228 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-09 11:17:40.506  INFO 16228 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-10-09 11:17:41.970  INFO 16228 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:17:42.448  INFO 16228 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-10-09 11:17:44.090  INFO 16228 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:17:44.173  WARN 16228 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-09 11:17:44.755  INFO 16228 --- [main] tn.esprit.spring.MissionTest             : Started MissionTest in 8.046 seconds (JVM running for 9.652)
+2021-10-09 11:17:45.177  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4e10a320
+2021-10-09 11:17:45.179  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4c13ca07
+2021-10-09 11:17:45.179  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@7d17906
+2021-10-09 11:17:45.179  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@97beeaf
+2021-10-09 11:17:45.179  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5d68954d
+2021-10-09 11:17:45.179  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@f793f15
+2021-10-09 11:17:45.179  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@3ec7eb5
+2021-10-09 11:17:45.179  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5534e6f1
+2021-10-09 11:17:45.180  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4c6fc3e7
+2021-10-09 11:17:45.180  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@aa8dce8
+2021-10-09 11:17:45.180  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6ad112de
+2021-10-09 11:17:45.180  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@18a0721b
+2021-10-09 11:17:45.180  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2ae2fa13
+2021-10-09 11:17:45.180  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@66e12c3b
+2021-10-09 11:17:45.180  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1f6f0fe2
+2021-10-09 11:17:45.180  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@22604c7e
+2021-10-09 11:17:45.180  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4d8f2cfd
+2021-10-09 11:17:45.180  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6d4502ca
+2021-10-09 11:17:45.180  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@ab2009f
+2021-10-09 11:17:45.180  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2a11ae0b
+2021-10-09 11:17:45.181  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1e4d8770
+2021-10-09 11:17:45.181  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5b5b9521
+2021-10-09 11:17:45.181  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@41f7c02d
+2021-10-09 11:17:45.181  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@66314fee
+2021-10-09 11:17:45.181  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@14b5325f
+2021-10-09 11:17:45.181  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@13404f75
+2021-10-09 11:17:45.181  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6cc90398
+2021-10-09 11:17:45.181  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6b6fd0
+2021-10-09 11:17:45.181  INFO 16228 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@3d718248
+2021-10-09 11:17:45.269  INFO 16228 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:17:45.283  INFO 16228 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:17:45.288  INFO 16228 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-09 11:17:45.307  INFO 16228 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-09 11:18:01.333  INFO 9564 --- [main] tn.esprit.spring.MissionTest             : Starting MissionTest on DESKTOP-CNJ85KK with PID 9564 (started by Admin in C:\Users\Admin\Desktop\TimesheetProject)
+2021-10-09 11:18:01.335  INFO 9564 --- [main] tn.esprit.spring.MissionTest             : No active profile set, falling back to default profiles: default
+2021-10-09 11:18:02.587  INFO 9564 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-09 11:18:02.716  INFO 9564 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116ms. Found 6 repository interfaces.
+2021-10-09 11:18:03.302  INFO 9564 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$390461d3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 11:18:03.639  INFO 9564 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-09 11:18:03.927  INFO 9564 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-09 11:18:04.012  INFO 9564 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-09 11:18:04.119  INFO 9564 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-10-09 11:18:04.122  INFO 9564 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-10-09 11:18:04.327  INFO 9564 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-09 11:18:04.736  INFO 9564 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-10-09 11:18:06.208  INFO 9564 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:18:06.691  INFO 9564 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-10-09 11:18:08.323  INFO 9564 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:18:08.414  WARN 9564 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-09 11:18:09.072  INFO 9564 --- [main] tn.esprit.spring.MissionTest             : Started MissionTest in 8.196 seconds (JVM running for 9.729)
+2021-10-09 11:18:09.525  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@22604c7e
+2021-10-09 11:18:09.527  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@ab2009f
+2021-10-09 11:18:09.527  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2a11ae0b
+2021-10-09 11:18:09.527  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1e4d8770
+2021-10-09 11:18:09.527  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5b5b9521
+2021-10-09 11:18:09.527  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@41f7c02d
+2021-10-09 11:18:09.527  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@66314fee
+2021-10-09 11:18:09.528  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@14b5325f
+2021-10-09 11:18:09.528  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@13404f75
+2021-10-09 11:18:09.528  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6cc90398
+2021-10-09 11:18:09.528  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6b6fd0
+2021-10-09 11:18:09.528  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@3d718248
+2021-10-09 11:18:09.528  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2cdb5974
+2021-10-09 11:18:09.528  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@8aa5ab4
+2021-10-09 11:18:09.528  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@62360a68
+2021-10-09 11:18:09.528  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1450ffa3
+2021-10-09 11:18:09.529  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4e756867
+2021-10-09 11:18:09.529  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@38ebc866
+2021-10-09 11:18:09.529  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6adcf059
+2021-10-09 11:18:09.529  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@7962a746
+2021-10-09 11:18:09.529  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1c31de5d
+2021-10-09 11:18:09.529  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@7a7f9d45
+2021-10-09 11:18:09.529  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@772cf46b
+2021-10-09 11:18:09.529  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1b98355f
+2021-10-09 11:18:09.529  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@949d347
+2021-10-09 11:18:09.529  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@f5ae29e
+2021-10-09 11:18:09.529  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1fc5c0b2
+2021-10-09 11:18:09.529  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@45ad3cd8
+2021-10-09 11:18:09.529  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2b90cc1
+2021-10-09 11:18:09.529  INFO 9564 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5a2f401a
+2021-10-09 11:18:09.631  INFO 9564 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:18:09.641  INFO 9564 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:18:09.644  INFO 9564 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-09 11:18:09.673  INFO 9564 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-09 11:18:19.245  INFO 3876 --- [main] tn.esprit.spring.MissionTest             : Starting MissionTest on DESKTOP-CNJ85KK with PID 3876 (started by Admin in C:\Users\Admin\Desktop\TimesheetProject)
+2021-10-09 11:18:19.248  INFO 3876 --- [main] tn.esprit.spring.MissionTest             : No active profile set, falling back to default profiles: default
+2021-10-09 11:18:20.449  INFO 3876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-09 11:18:20.595  INFO 3876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 129ms. Found 6 repository interfaces.
+2021-10-09 11:18:21.182  INFO 3876 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$390461d3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 11:18:21.493  INFO 3876 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-09 11:18:21.777  INFO 3876 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-09 11:18:21.858  INFO 3876 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-09 11:18:21.968  INFO 3876 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-10-09 11:18:21.970  INFO 3876 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-10-09 11:18:22.193  INFO 3876 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-09 11:18:22.598  INFO 3876 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-10-09 11:18:24.005  INFO 3876 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:18:24.448  INFO 3876 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-10-09 11:18:26.044  INFO 3876 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:18:26.127  WARN 3876 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-09 11:18:26.781  INFO 3876 --- [main] tn.esprit.spring.MissionTest             : Started MissionTest in 7.984 seconds (JVM running for 9.437)
+2021-10-09 11:18:27.229  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@aa8dce8
+2021-10-09 11:18:27.231  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2ae2fa13
+2021-10-09 11:18:27.231  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@66e12c3b
+2021-10-09 11:18:27.232  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@44485db
+2021-10-09 11:18:27.232  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1f6f0fe2
+2021-10-09 11:18:27.232  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@22604c7e
+2021-10-09 11:18:27.233  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4d8f2cfd
+2021-10-09 11:18:27.233  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6d4502ca
+2021-10-09 11:18:27.233  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@ab2009f
+2021-10-09 11:18:27.233  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2a11ae0b
+2021-10-09 11:18:27.233  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1e4d8770
+2021-10-09 11:18:27.233  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5b5b9521
+2021-10-09 11:18:27.233  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@41f7c02d
+2021-10-09 11:18:27.233  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@66314fee
+2021-10-09 11:18:27.234  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@13404f75
+2021-10-09 11:18:27.234  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6cc90398
+2021-10-09 11:18:27.234  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6b6fd0
+2021-10-09 11:18:27.234  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@3d718248
+2021-10-09 11:18:27.234  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2cdb5974
+2021-10-09 11:18:27.236  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@8aa5ab4
+2021-10-09 11:18:27.236  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@53e4a19e
+2021-10-09 11:18:27.236  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@62360a68
+2021-10-09 11:18:27.236  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1450ffa3
+2021-10-09 11:18:27.236  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4e756867
+2021-10-09 11:18:27.236  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@38ebc866
+2021-10-09 11:18:27.236  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6adcf059
+2021-10-09 11:18:27.236  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@7962a746
+2021-10-09 11:18:27.236  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1c31de5d
+2021-10-09 11:18:27.236  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@7a7f9d45
+2021-10-09 11:18:27.236  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@772cf46b
+2021-10-09 11:18:27.236  INFO 3876 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1b98355f
+2021-10-09 11:18:27.321  INFO 3876 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:18:27.325  INFO 3876 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:18:27.329  INFO 3876 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-09 11:18:27.347  INFO 3876 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-09 11:30:38.388  INFO 19060 --- [main] tn.esprit.spring.MissionTest             : Starting MissionTest on DESKTOP-CNJ85KK with PID 19060 (started by Admin in C:\Users\Admin\Desktop\TimesheetProject)
+2021-10-09 11:30:38.394  INFO 19060 --- [main] tn.esprit.spring.MissionTest             : No active profile set, falling back to default profiles: default
+2021-10-09 11:30:39.551  INFO 19060 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-09 11:30:39.683  INFO 19060 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 117ms. Found 6 repository interfaces.
+2021-10-09 11:30:40.330  INFO 19060 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$af86569e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 11:30:40.736  INFO 19060 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-09 11:30:40.911  INFO 19060 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-09 11:30:40.993  INFO 19060 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-09 11:30:41.097  INFO 19060 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-10-09 11:30:41.099  INFO 19060 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-10-09 11:30:41.297  INFO 19060 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-09 11:30:41.698  INFO 19060 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-10-09 11:30:43.212  INFO 19060 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:30:43.682  INFO 19060 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-10-09 11:30:45.293  INFO 19060 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:30:45.377  WARN 19060 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-09 11:30:45.967  INFO 19060 --- [main] tn.esprit.spring.MissionTest             : Started MissionTest in 8.044 seconds (JVM running for 9.363)
+2021-10-09 11:30:46.409  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@352c3d70
+2021-10-09 11:30:46.411  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@97beeaf
+2021-10-09 11:30:46.411  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5d68954d
+2021-10-09 11:30:46.415  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@f793f15
+2021-10-09 11:30:46.415  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@3ec7eb5
+2021-10-09 11:30:46.416  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5534e6f1
+2021-10-09 11:30:46.416  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4c6fc3e7
+2021-10-09 11:30:46.417  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@aa8dce8
+2021-10-09 11:30:46.423  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6ad112de
+2021-10-09 11:30:46.424  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@18a0721b
+2021-10-09 11:30:46.424  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2ae2fa13
+2021-10-09 11:30:46.424  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@66e12c3b
+2021-10-09 11:30:46.424  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@44485db
+2021-10-09 11:30:46.424  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1f6f0fe2
+2021-10-09 11:30:46.424  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4d8f2cfd
+2021-10-09 11:30:46.424  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6d4502ca
+2021-10-09 11:30:46.425  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@ab2009f
+2021-10-09 11:30:46.425  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2a11ae0b
+2021-10-09 11:30:46.425  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1e4d8770
+2021-10-09 11:30:46.425  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5b5b9521
+2021-10-09 11:30:46.425  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@41f7c02d
+2021-10-09 11:30:46.425  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@66314fee
+2021-10-09 11:30:46.425  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@14b5325f
+2021-10-09 11:30:46.426  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@13404f75
+2021-10-09 11:30:46.426  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6cc90398
+2021-10-09 11:30:46.426  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6b6fd0
+2021-10-09 11:30:46.429  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@3d718248
+2021-10-09 11:30:46.430  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2cdb5974
+2021-10-09 11:30:46.430  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@8aa5ab4
+2021-10-09 11:30:46.430  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@53e4a19e
+2021-10-09 11:30:46.430  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@62360a68
+2021-10-09 11:30:46.430  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1450ffa3
+2021-10-09 11:30:46.499  INFO 19060 --- [main] t.esprit.spring.services.MissionService  : retrievemission: tn.esprit.spring.entities.Mission@4df7b4ac
+2021-10-09 11:30:46.499 ERROR 19060 --- [main] t.esprit.spring.services.MissionService  : mission n'existe pas
+2021-10-09 11:30:46.527  INFO 19060 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:30:46.530  INFO 19060 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:30:46.534  INFO 19060 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-09 11:30:46.548  INFO 19060 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-09 11:31:06.531  INFO 10296 --- [main] tn.esprit.spring.MissionTest             : Starting MissionTest on DESKTOP-CNJ85KK with PID 10296 (started by Admin in C:\Users\Admin\Desktop\TimesheetProject)
+2021-10-09 11:31:06.537  INFO 10296 --- [main] tn.esprit.spring.MissionTest             : No active profile set, falling back to default profiles: default
+2021-10-09 11:31:07.708  INFO 10296 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-09 11:31:07.846  INFO 10296 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 122ms. Found 6 repository interfaces.
+2021-10-09 11:31:08.443  INFO 10296 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1a2ee268] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 11:31:08.760  INFO 10296 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-09 11:31:09.048  INFO 10296 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-09 11:31:09.133  INFO 10296 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-09 11:31:09.239  INFO 10296 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-10-09 11:31:09.242  INFO 10296 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-10-09 11:31:09.450  INFO 10296 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-09 11:31:09.852  INFO 10296 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-10-09 11:31:11.399  INFO 10296 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:31:11.931  INFO 10296 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-10-09 11:31:13.649  INFO 10296 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:31:13.748  WARN 10296 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-09 11:31:14.334  INFO 10296 --- [main] tn.esprit.spring.MissionTest             : Started MissionTest in 8.235 seconds (JVM running for 9.7)
+2021-10-09 11:31:14.767  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6d6f6ca9
+2021-10-09 11:31:14.768  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@236b4a44
+2021-10-09 11:31:14.768  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@35f760a4
+2021-10-09 11:31:14.769  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2ac05a33
+2021-10-09 11:31:14.769  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@35af52dc
+2021-10-09 11:31:14.769  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4cef0747
+2021-10-09 11:31:14.769  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4213bc3e
+2021-10-09 11:31:14.769  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6aaa678d
+2021-10-09 11:31:14.769  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@25dcf1b6
+2021-10-09 11:31:14.769  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@113d0f75
+2021-10-09 11:31:14.769  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4e10a320
+2021-10-09 11:31:14.769  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@773f3360
+2021-10-09 11:31:14.769  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@352c3d70
+2021-10-09 11:31:14.770  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4c13ca07
+2021-10-09 11:31:14.770  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@97beeaf
+2021-10-09 11:31:14.770  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5d68954d
+2021-10-09 11:31:14.770  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@f793f15
+2021-10-09 11:31:14.770  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@3ec7eb5
+2021-10-09 11:31:14.770  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5534e6f1
+2021-10-09 11:31:14.770  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4c6fc3e7
+2021-10-09 11:31:14.770  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@aa8dce8
+2021-10-09 11:31:14.770  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6ad112de
+2021-10-09 11:31:14.770  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@18a0721b
+2021-10-09 11:31:14.770  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2ae2fa13
+2021-10-09 11:31:14.772  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@66e12c3b
+2021-10-09 11:31:14.772  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@44485db
+2021-10-09 11:31:14.772  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1f6f0fe2
+2021-10-09 11:31:14.772  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@22604c7e
+2021-10-09 11:31:14.772  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4d8f2cfd
+2021-10-09 11:31:14.772  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6d4502ca
+2021-10-09 11:31:14.772  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@ab2009f
+2021-10-09 11:31:14.773  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2a11ae0b
+2021-10-09 11:31:14.773  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1e4d8770
+2021-10-09 11:31:14.850  INFO 10296 --- [main] t.esprit.spring.services.MissionService  : retrievemission: tn.esprit.spring.entities.Mission@43d6262c
+2021-10-09 11:31:14.850 ERROR 10296 --- [main] t.esprit.spring.services.MissionService  : mission n'existe pas
+2021-10-09 11:31:14.864  INFO 10296 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:31:14.867  INFO 10296 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:31:14.871  INFO 10296 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-09 11:31:14.890  INFO 10296 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-09 11:31:37.761  INFO 9544 --- [main] tn.esprit.spring.MissionTest             : Starting MissionTest on DESKTOP-CNJ85KK with PID 9544 (started by Admin in C:\Users\Admin\Desktop\TimesheetProject)
+2021-10-09 11:31:37.763  INFO 9544 --- [main] tn.esprit.spring.MissionTest             : No active profile set, falling back to default profiles: default
+2021-10-09 11:31:39.021  INFO 9544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-09 11:31:39.161  INFO 9544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126ms. Found 6 repository interfaces.
+2021-10-09 11:31:39.732  INFO 9544 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$726d2fc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 11:31:40.053  INFO 9544 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-09 11:31:40.329  INFO 9544 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-09 11:31:40.414  INFO 9544 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-09 11:31:40.516  INFO 9544 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-10-09 11:31:40.518  INFO 9544 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-10-09 11:31:40.733  INFO 9544 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-09 11:31:41.133  INFO 9544 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-10-09 11:31:42.551  INFO 9544 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:31:43.030  INFO 9544 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-10-09 11:31:44.676  INFO 9544 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:31:44.774  WARN 9544 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-09 11:31:45.404  INFO 9544 --- [main] tn.esprit.spring.MissionTest             : Started MissionTest in 8.127 seconds (JVM running for 9.546)
+2021-10-09 11:31:45.854  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5534e6f1
+2021-10-09 11:31:45.855  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6ad112de
+2021-10-09 11:31:45.856  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@18a0721b
+2021-10-09 11:31:45.856  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2ae2fa13
+2021-10-09 11:31:45.856  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@66e12c3b
+2021-10-09 11:31:45.856  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@44485db
+2021-10-09 11:31:45.856  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1f6f0fe2
+2021-10-09 11:31:45.857  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@22604c7e
+2021-10-09 11:31:45.857  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4d8f2cfd
+2021-10-09 11:31:45.857  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6d4502ca
+2021-10-09 11:31:45.857  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@ab2009f
+2021-10-09 11:31:45.857  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2a11ae0b
+2021-10-09 11:31:45.857  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1e4d8770
+2021-10-09 11:31:45.857  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5b5b9521
+2021-10-09 11:31:45.857  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@66314fee
+2021-10-09 11:31:45.857  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@14b5325f
+2021-10-09 11:31:45.857  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@13404f75
+2021-10-09 11:31:45.857  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6cc90398
+2021-10-09 11:31:45.857  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6b6fd0
+2021-10-09 11:31:45.857  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@3d718248
+2021-10-09 11:31:45.858  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2cdb5974
+2021-10-09 11:31:45.858  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@8aa5ab4
+2021-10-09 11:31:45.858  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@53e4a19e
+2021-10-09 11:31:45.858  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@62360a68
+2021-10-09 11:31:45.858  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1450ffa3
+2021-10-09 11:31:45.858  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4e756867
+2021-10-09 11:31:45.858  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@38ebc866
+2021-10-09 11:31:45.858  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6adcf059
+2021-10-09 11:31:45.858  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@7962a746
+2021-10-09 11:31:45.858  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1c31de5d
+2021-10-09 11:31:45.858  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@7a7f9d45
+2021-10-09 11:31:45.858  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@772cf46b
+2021-10-09 11:31:45.859  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1b98355f
+2021-10-09 11:31:45.859  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@949d347
+2021-10-09 11:31:45.930  INFO 9544 --- [main] t.esprit.spring.services.MissionService  : retrievemission: tn.esprit.spring.entities.Mission@2c0fefac
+2021-10-09 11:31:45.930 ERROR 9544 --- [main] t.esprit.spring.services.MissionService  : mission n'existe pas
+2021-10-09 11:31:45.944  INFO 9544 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:31:45.946  INFO 9544 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:31:45.950  INFO 9544 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-09 11:31:45.968  INFO 9544 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-09 11:32:43.855  INFO 5132 --- [main] tn.esprit.spring.MissionTest             : Starting MissionTest on DESKTOP-CNJ85KK with PID 5132 (started by Admin in C:\Users\Admin\Desktop\TimesheetProject)
+2021-10-09 11:32:43.860  INFO 5132 --- [main] tn.esprit.spring.MissionTest             : No active profile set, falling back to default profiles: default
+2021-10-09 11:32:45.041  INFO 5132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-09 11:32:45.176  INFO 5132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 123ms. Found 6 repository interfaces.
+2021-10-09 11:32:45.750  INFO 5132 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ec434066] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 11:32:46.088  INFO 5132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-09 11:32:46.382  INFO 5132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-09 11:32:46.467  INFO 5132 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-09 11:32:46.570  INFO 5132 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-10-09 11:32:46.573  INFO 5132 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-10-09 11:32:46.789  INFO 5132 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-09 11:32:47.173  INFO 5132 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-10-09 11:32:48.736  INFO 5132 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:32:49.247  INFO 5132 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-10-09 11:32:50.850  INFO 5132 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:32:50.945  WARN 5132 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-09 11:32:51.557  INFO 5132 --- [main] tn.esprit.spring.MissionTest             : Started MissionTest in 8.149 seconds (JVM running for 9.565)
+2021-10-09 11:32:51.985  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@ab2009f
+2021-10-09 11:32:51.986  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5b5b9521
+2021-10-09 11:32:51.987  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@41f7c02d
+2021-10-09 11:32:51.987  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@66314fee
+2021-10-09 11:32:51.987  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@14b5325f
+2021-10-09 11:32:51.987  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@13404f75
+2021-10-09 11:32:51.987  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6cc90398
+2021-10-09 11:32:51.988  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6b6fd0
+2021-10-09 11:32:51.988  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@3d718248
+2021-10-09 11:32:51.988  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2cdb5974
+2021-10-09 11:32:51.988  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@8aa5ab4
+2021-10-09 11:32:51.988  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@53e4a19e
+2021-10-09 11:32:51.988  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@62360a68
+2021-10-09 11:32:51.988  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1450ffa3
+2021-10-09 11:32:51.988  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@38ebc866
+2021-10-09 11:32:51.988  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6adcf059
+2021-10-09 11:32:51.988  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@7962a746
+2021-10-09 11:32:51.988  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1c31de5d
+2021-10-09 11:32:51.988  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@7a7f9d45
+2021-10-09 11:32:51.988  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@772cf46b
+2021-10-09 11:32:51.988  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1b98355f
+2021-10-09 11:32:51.989  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@949d347
+2021-10-09 11:32:51.989  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@f5ae29e
+2021-10-09 11:32:51.989  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1fc5c0b2
+2021-10-09 11:32:51.989  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@45ad3cd8
+2021-10-09 11:32:51.989  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2b90cc1
+2021-10-09 11:32:51.989  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5a2f401a
+2021-10-09 11:32:51.989  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6bdedbbd
+2021-10-09 11:32:51.989  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@47b961e2
+2021-10-09 11:32:51.990  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@d2cb2d0
+2021-10-09 11:32:51.990  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2d230cff
+2021-10-09 11:32:51.990  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@30bd39d5
+2021-10-09 11:32:51.990  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@3c87e851
+2021-10-09 11:32:51.990  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@54556723
+2021-10-09 11:32:51.990  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6124dda2
+2021-10-09 11:32:52.069  INFO 5132 --- [main] t.esprit.spring.services.MissionService  : retrievemission: tn.esprit.spring.entities.Mission@556aed22
+2021-10-09 11:32:52.069 ERROR 5132 --- [main] t.esprit.spring.services.MissionService  : mission n'existe pas
+2021-10-09 11:32:52.089  INFO 5132 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:32:52.095  INFO 5132 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:32:52.103  INFO 5132 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-09 11:32:52.135  INFO 5132 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-09 11:33:22.678  INFO 9372 --- [main] tn.esprit.spring.MissionTest             : Starting MissionTest on DESKTOP-CNJ85KK with PID 9372 (started by Admin in C:\Users\Admin\Desktop\TimesheetProject)
+2021-10-09 11:33:22.680  INFO 9372 --- [main] tn.esprit.spring.MissionTest             : No active profile set, falling back to default profiles: default
+2021-10-09 11:33:23.913  INFO 9372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-09 11:33:24.059  INFO 9372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 131ms. Found 6 repository interfaces.
+2021-10-09 11:33:24.651  INFO 9372 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$390461d3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 11:33:24.991  INFO 9372 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-09 11:33:25.297  INFO 9372 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-09 11:33:25.384  INFO 9372 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-09 11:33:25.489  INFO 9372 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-10-09 11:33:25.491  INFO 9372 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-10-09 11:33:25.695  INFO 9372 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-09 11:33:26.115  INFO 9372 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-10-09 11:33:27.741  INFO 9372 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:33:28.243  INFO 9372 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-10-09 11:33:29.852  INFO 9372 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:33:29.946  WARN 9372 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-09 11:33:30.544  INFO 9372 --- [main] tn.esprit.spring.MissionTest             : Started MissionTest in 8.299 seconds (JVM running for 9.798)
+2021-10-09 11:33:30.972  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@aa8dce8
+2021-10-09 11:33:30.973  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2ae2fa13
+2021-10-09 11:33:30.973  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@66e12c3b
+2021-10-09 11:33:30.973  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@44485db
+2021-10-09 11:33:30.973  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1f6f0fe2
+2021-10-09 11:33:30.973  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@22604c7e
+2021-10-09 11:33:30.973  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4d8f2cfd
+2021-10-09 11:33:30.974  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6d4502ca
+2021-10-09 11:33:30.974  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@ab2009f
+2021-10-09 11:33:30.974  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2a11ae0b
+2021-10-09 11:33:30.974  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1e4d8770
+2021-10-09 11:33:30.974  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5b5b9521
+2021-10-09 11:33:30.974  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@41f7c02d
+2021-10-09 11:33:30.974  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@66314fee
+2021-10-09 11:33:30.975  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@13404f75
+2021-10-09 11:33:30.975  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6cc90398
+2021-10-09 11:33:30.975  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6b6fd0
+2021-10-09 11:33:30.975  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@3d718248
+2021-10-09 11:33:30.975  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2cdb5974
+2021-10-09 11:33:30.976  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@8aa5ab4
+2021-10-09 11:33:30.976  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@53e4a19e
+2021-10-09 11:33:30.976  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@62360a68
+2021-10-09 11:33:30.976  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1450ffa3
+2021-10-09 11:33:30.976  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4e756867
+2021-10-09 11:33:30.976  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@38ebc866
+2021-10-09 11:33:30.976  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6adcf059
+2021-10-09 11:33:30.977  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@7962a746
+2021-10-09 11:33:30.977  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1c31de5d
+2021-10-09 11:33:30.977  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@7a7f9d45
+2021-10-09 11:33:30.978  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@772cf46b
+2021-10-09 11:33:30.978  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1b98355f
+2021-10-09 11:33:30.978  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@949d347
+2021-10-09 11:33:30.978  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@f5ae29e
+2021-10-09 11:33:30.978  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1fc5c0b2
+2021-10-09 11:33:30.978  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@45ad3cd8
+2021-10-09 11:33:30.978  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2b90cc1
+2021-10-09 11:33:31.054  INFO 9372 --- [main] t.esprit.spring.services.MissionService  : retrievemission: tn.esprit.spring.entities.Mission@6a04d2a4
+2021-10-09 11:33:31.054 ERROR 9372 --- [main] t.esprit.spring.services.MissionService  : mission n'existe pas
+2021-10-09 11:33:31.067  INFO 9372 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:33:31.071  INFO 9372 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:33:31.075  INFO 9372 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-09 11:33:31.088  INFO 9372 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-09 11:35:36.255  INFO 19240 --- [RMI TCP Connection(216)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-10-09 11:35:37.009  INFO 19240 --- [RMI TCP Connection(216)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-09 11:35:37.048  INFO 19240 --- [RMI TCP Connection(216)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 11:35:37.387  INFO 19240 --- [RMI TCP Connection(216)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-09 11:35:37.450  INFO 19240 --- [RMI TCP Connection(216)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-09 21:19:29.010  INFO 16276 --- [main] tn.esprit.spring.MissionTest             : Starting MissionTest on DESKTOP-CNJ85KK with PID 16276 (started by Admin in C:\Users\Admin\Desktop\TimesheetProject)
+2021-10-09 21:19:29.020  INFO 16276 --- [main] tn.esprit.spring.MissionTest             : No active profile set, falling back to default profiles: default
+2021-10-09 21:19:30.935  INFO 16276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-09 21:19:31.079  INFO 16276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 134ms. Found 6 repository interfaces.
+2021-10-09 21:19:32.063  INFO 16276 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$726d2fc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-09 21:19:32.962  INFO 16276 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-09 21:19:34.092  INFO 16276 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-09 21:19:34.526  INFO 16276 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-09 21:19:35.126  INFO 16276 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-10-09 21:19:35.130  INFO 16276 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-10-09 21:19:35.869  INFO 16276 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-09 21:19:36.701  INFO 16276 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-10-09 21:19:40.265  INFO 16276 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 21:19:41.083  INFO 16276 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-10-09 21:19:43.654  INFO 16276 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-09 21:19:43.793  WARN 16276 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-09 21:19:44.596  INFO 16276 --- [main] tn.esprit.spring.MissionTest             : Started MissionTest in 16.095 seconds (JVM running for 18.13)
+2021-10-09 21:19:45.539  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@14b5325f
+2021-10-09 21:19:45.541  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6b6fd0
+2021-10-09 21:19:45.541  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@3d718248
+2021-10-09 21:19:45.541  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2cdb5974
+2021-10-09 21:19:45.541  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@8aa5ab4
+2021-10-09 21:19:45.541  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@53e4a19e
+2021-10-09 21:19:45.542  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@62360a68
+2021-10-09 21:19:45.542  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1450ffa3
+2021-10-09 21:19:45.542  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4e756867
+2021-10-09 21:19:45.542  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@38ebc866
+2021-10-09 21:19:45.542  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6adcf059
+2021-10-09 21:19:45.544  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@7962a746
+2021-10-09 21:19:45.544  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1c31de5d
+2021-10-09 21:19:45.544  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@7a7f9d45
+2021-10-09 21:19:45.544  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1b98355f
+2021-10-09 21:19:45.545  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@949d347
+2021-10-09 21:19:45.545  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@f5ae29e
+2021-10-09 21:19:45.545  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@1fc5c0b2
+2021-10-09 21:19:45.545  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@45ad3cd8
+2021-10-09 21:19:45.545  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2b90cc1
+2021-10-09 21:19:45.545  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@5a2f401a
+2021-10-09 21:19:45.545  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6bdedbbd
+2021-10-09 21:19:45.545  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@47b961e2
+2021-10-09 21:19:45.545  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@d2cb2d0
+2021-10-09 21:19:45.545  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2d230cff
+2021-10-09 21:19:45.545  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@30bd39d5
+2021-10-09 21:19:45.545  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@3c87e851
+2021-10-09 21:19:45.545  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@54556723
+2021-10-09 21:19:45.545  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@6124dda2
+2021-10-09 21:19:45.545  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@380e33c2
+2021-10-09 21:19:45.546  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@3bc891f2
+2021-10-09 21:19:45.546  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@445b85d7
+2021-10-09 21:19:45.546  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@3d59933
+2021-10-09 21:19:45.546  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@4a0c3aa8
+2021-10-09 21:19:45.546  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@3534651a
+2021-10-09 21:19:45.546  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@2d593b56
+2021-10-09 21:19:45.546  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : missions :tn.esprit.spring.entities.Mission@26a33cf
+2021-10-09 21:19:45.635  INFO 16276 --- [main] t.esprit.spring.services.MissionService  : retrievemission: tn.esprit.spring.entities.Mission@8ee03f5
+2021-10-09 21:19:45.636 ERROR 16276 --- [main] t.esprit.spring.services.MissionService  : mission n'existe pas
+2021-10-09 21:19:45.704  INFO 16276 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-09 21:19:45.708  INFO 16276 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-09 21:19:45.711  INFO 16276 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-09 21:19:45.722  INFO 16276 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
